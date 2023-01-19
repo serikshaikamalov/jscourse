@@ -1,16 +1,17 @@
-1-Lesson
-Variables
-Number
-String
-Boolean
-Undefined, null
-Console
+1)
+- Кіріспе
+- Бағдарламашы құрылғылары: VS Code, Chrome explorer
+- Айнымалы деген және жалпы танысу
+- Консоль браузера
 
 2)
-String methods
-Number methods
-Concatination
+String типімен жақын танысу
+Number типімен жақын танысу
+Конкатинация
+Математикалық операторлар: + - * /
 
 3) 
-Matematicalik operatorlar
-Conditions(If, Switch)
+- alert(), confirm(), prompt() - сайт қолданушысымен байланыс
+- Шартты операторлар: If else
+- Шартты операторлар: Switch
+- Теңдік операторлар: >, <, ==, ===
