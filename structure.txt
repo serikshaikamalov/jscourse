@@ -1,0 +1,16 @@
+1-Lesson
+Variables
+Number
+String
+Boolean
+Undefined, null
+Console
+
+2)
+String methods
+Number methods
+Concatination
+
+3) 
+Matematicalik operatorlar
+Conditions(If, Switch)

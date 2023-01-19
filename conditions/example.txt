@@ -1,0 +1,7 @@
+let num = prompt("Bigger than zero");
+
+if (num > 0) {
+  console.log(num + " саны 0 үлкен");
+} else {
+  console.log(num + " саны 0 кіші");
+}
