@@ -1,0 +1,7 @@
+//  Практика: Жарыс қосымшасы. Стадионды 5 рет айналып шығу
+let count = 0;
+
+while (count < 6) {
+  count = count + 1;
+  console.log(count);
+}
