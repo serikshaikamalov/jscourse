@@ -1,5 +1,11 @@
 24 Сабақ: 14 Сабақ JS, 10 сабақ ReactJS
-Проектер: Калькулятор, Weather app, TodoApp+
+Проектер: Калькулятор, QuizApp, TodoApp+
+
+Модульдар: Айнымалы, Функция, ООП, DOM API, ReactJS
+
+ReactJS apps:
+Counter: + 0 -
+QuizApp - алғашқы приложение React
 
 1)
 - Кіріспе
