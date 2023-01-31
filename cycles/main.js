@@ -9,11 +9,17 @@
 
 // while (count < 5) {
 //   count = count + 1;
-//   console.log(count + " айналым бітті");
+//   console.log(count + " айналым бітті");    
 // }
 
 // console.log("Жарыс бітті");
 
+/**
+ * for циклы 3 нәрседен тұрады:
+ * - Айнымалыны құру және оған бастапқы мәнді беру
+ * - Шарт
+ * - Код орындалып болған соң, count бірге ұлғаяды
+*/
 for (let count = 1; count < 6; count++) {
     console.log(count + " айналым бітті");
 }
