@@ -1,18 +1,14 @@
-// 1
-let arr = [1, 2, 3, -23232, 4, 5, -1, -10000, 5];
+// Берілген саннан минимумды табу
 
-let result = Number.POSITIVE_INFINITY;
-console.log("result: ", result);
+let arr = [1, 2, 3, 4, 5, -1000, -1001];
+
+let result = arr[0];
 
 for (let i = 0; i < arr.length; i++) {
-  const num = arr[i];
-  if (result > num) {
-    result = num;
+  const element = arr[i];
+  if (result > element) {
+    result = element;
   }
 }
 
-console.log("The most min number is: ", result);
-
-
-let students = ['aygul', 'diana', 123, true, undefined]
-// ['Aygul', 'Diana']
+console.log('Ең кішкентай сан: ', result);

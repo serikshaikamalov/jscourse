@@ -1,5 +1,9 @@
-let arr = [1, 2, 3, 4, 5];
-arr.splice(1, 0, 1.5);
-// arr.splice(1, 2);
+/**
+ * Splice - элементтеді өшіру үшін не қосу үшін қолданылады
+ */
 
-console.log(arr);
+let nums = [1, 2, 3, 4, 5];
+// nums.splice(1, 2);
+
+nums.splice(0, 0, 0.5, 0.7)
+console.log(nums);
