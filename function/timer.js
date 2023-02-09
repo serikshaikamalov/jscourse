@@ -1,0 +1,6 @@
+/**
+ * setTimeout
+ * setInterval
+ * Callback
+ * Filter
+ */
