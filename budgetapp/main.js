@@ -15,6 +15,8 @@ const expensesList = document.querySelector(".expenses-container");
 budgetFormButton.addEventListener("click", () => {
   budgetAmount.innerHTML = budgetFormInput.value;
   budgetFormInput.value = 0;
+
+  calculateBalance();
 });
 
 expenseButton.addEventListener("click", () => {
