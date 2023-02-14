@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #587ef4;
+  --secondary: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.gap-x-10 {
+  gap: 10px;
+}
+
+.color-primary {
+  color: var(--primary);
+}
+.color-secondary {
+  color: var(--secondary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.card {
+  padding: 1.8em 1.2em;
+  box-shadow: 0 0.6em 1.2em rgb(28 0 80 / 6%);
+  border-radius: 0.6em;
+}
+
+button.primary {
+  font-size: 1em;
+  margin-top: 0.8em;
+  background-color: #587ef4;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 0.6em 1.2em;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+button.secondary {
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.6em 0.3em;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.3em;
+  color: #414a67;
+  outline: none;
+  font-weight: 400;
+  margin-bottom: 0.6em;
+}
+
+
+.expenses-item > div{
+  flex: 1;
+}

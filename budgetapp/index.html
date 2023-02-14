@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="budget container">
+      <div class="flex flex-row gap-x-10 mb-16">
+        <!-- Budget form -->
+        <div class="budget-form card flex-1">
+          <h1>Бюджет</h1>
+          <div>
+            <input
+              type="text"
+              class="budget-form__input"
+              placeholder="Айлық бюджетті еңгізіңіз"
+            />
+          </div>
+          <div>
+            <button class="primary budget-form__button">Сақтау</button>
+          </div>
+        </div>
+
+        <!-- Expenses -->
+        <div class="expenses card flex-1">
+          <h1>Шығындар</h1>
+          <div>
+            <input
+              type="text"
+              class="expenses-form__title"
+              placeholder="Товардың атын еңгізіңіз"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              class="expenses-form__price"
+              placeholder="Товардың бағасын ең
+            "
+            />
+          </div>
+          <div>
+            <button class="primary expenses-form__button">Сақтау</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <section class="mb-16">
+        <div
+          class="flex flex-row bg-primary color-secondary card bg-primary color-secondary"
+        >
+          <div class="flex-1">
+            <h2>Бюджет</h2>
+            <h3 class="budget__amout">0</h3>
+          </div>
+          <div class="flex-1">
+            <h2>Шығын</h2>
+            <h3 class="budget__expenses">0</h3>
+          </div>
+          <div class="flex-1">
+            <h2>Баланс</h2>
+            <h3 class="budget__balance">0</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="card mb-16">
+        <h2>Шығындар</h2>
+
+        <div class="expenses-container">
+          <!-- <div class="expenses-item flex flex-row">
+            <div class="product">Apple</div>
+            <div class="amount">500</div>
+            <div>Delete</div>
+          </div> -->
+        </div>
+      </section>
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>
